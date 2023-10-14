@@ -2,8 +2,14 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .fuente-titulos{
   font-family: 'Black Han Sans', sans-serif;
+
+main{
+  flex-grow: 1;
 }
