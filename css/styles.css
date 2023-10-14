@@ -9,7 +9,8 @@ body{
 
 .fuente-titulos{
   font-family: 'Black Han Sans', sans-serif;
+}
 
-main{
+main {
   flex-grow: 1;
 }
