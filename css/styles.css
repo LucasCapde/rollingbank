@@ -19,3 +19,10 @@ main {
   width: 900px;
   height: 600px;
 }
+
+@media (max-width: 576px){
+  .imagen-tamaño{
+    width: 400px;
+    height: 350px;
+  }
+}
