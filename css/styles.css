@@ -1,15 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
-
-.fuente-archivo{
-  font-family: 'Archivo Black', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto:wght@300;400;700&display=swap');
 
 body{
+  font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-main{
+.fuente-titulos{
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+main {
   flex-grow: 1;
+}
+
+.imagen-tamaño{
+  width: 900px;
+  height: 600px;
+}
+
+@media (max-width: 576px){
+  .imagen-tamaño{
+    width: 400px;
+    height: 350px;
+  }
 }
