@@ -20,6 +20,11 @@ main {
   height: 600px;
 }
 
+.img-carrousel{
+  height: 500px;
+  object-fit: cover;
+}
+
 @media (max-width: 576px){
   .imagen-tamaño{
     width: 400px;
