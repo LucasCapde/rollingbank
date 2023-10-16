@@ -20,6 +20,15 @@ main {
   height: 600px;
 }
 
+.img-carrousel{
+  height: 500px;
+  object-fit: cover;
+}
+
+.custom-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.547);
+}
+
 @media (max-width: 576px){
   .imagen-tamaño{
     width: 400px;
@@ -50,4 +59,5 @@ main {
     font-size: 50px;
     margin-top: 15px;
   }
+
 }
