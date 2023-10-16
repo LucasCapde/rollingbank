@@ -27,6 +27,13 @@ main {
   }
 }
 
+/** ----- Tamaño de iconos en index ----- */
+.fa-eye,
+.fa-fingerprint,
+.fa-puzzle-piece,
+.fa-robot{
+  font-size: 30px;
+}
 
 /**----- Mediaqueries para página precios  */
 
