@@ -27,12 +27,27 @@ main {
   }
 }
 
-
-
 /** ----- Tamaño de iconos en index ----- */
 .fa-eye,
 .fa-fingerprint,
 .fa-puzzle-piece,
 .fa-robot{
   font-size: 30px;
+}
+
+/**----- Mediaqueries para página precios  */
+
+@media (max-width: 576px){
+  .precio{
+    width: 15%;
+  }
+
+  .fa-user,
+  .fa-screwdriver-wrench,
+  .fa-money-check-dollar,
+  .fa-money-bill-wave,
+  .fa-credit-card{
+    font-size: 50px;
+    margin-top: 15px;
+  }
 }
